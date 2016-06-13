@@ -2,15 +2,128 @@
 
 =head1 Best Perl Modules
 
+=head2 1. 简介
+
 Perl 常用模块推荐。
 
-=head2 模块安装
+=head2 2. 模块安装
 
 L<How to Install Perl Modules Using App::cpanminus (cpanm)|https://github.com/WisdomFusion/HOWTOs/blob/master/howto-install-perl-moudles-using-cpanminus.md>
 
-=head2 推荐模块列表
+=head2 3. 推荐模块列表
 
-=head3 Web Scraper
+=head3 3.1. 正则表达式
+
+=over
+
+=item * L<Regexp::Common>
+
+=item * L<Regexp::Optimizer>
+
+=item * L<Regexp::Assemble>
+
+=item * L<re>
+
+=item * L<YAPE::Regex::Explain>
+
+=back
+
+=head3 3.2. 日期和时间
+
+=over
+
+=item * L<DateTime>
+
+=item * L<Date::Tiny>
+
+=item * L<Date::Parse>
+
+=item * L<Time::ParseDate>
+
+=item * L<Date::Formate>
+
+=item * L<Time::HiRes>
+
+=item * L<Date::Calc>
+
+=back
+
+=head3 3.3. 数据库
+
+=over
+
+=item * L<DBIx::Class>
+
+=item * L<DBI>
+
+=item * L<Class::DBI>
+
+=item * L<Rose::DB::Object>
+
+=item * L<DBIx::Simple>
+
+=back
+
+=head3 3.4. 面向对象
+
+=over
+
+=item * L<Moose>
+
+=item * L<MooseX>
+
+=item * L<Mouse>
+
+=item * L<Moo>
+
+=item * L<Class::XSAccessor>
+
+=item * L<Class::XSAccessor::Array>
+
+=item * L<Class::Struct>
+
+=item * L<Class::Accessor>
+
+=item * L<Class::Std>
+
+=item * L<Class::MethodMaker>
+
+=item * L<App::Benchmark::Accessors>
+
+=back
+
+=head3  3.5. Debug
+
+=over
+
+=item * L<Devel::Peek>
+
+=item * L<Devel::Size>
+
+=item * L<Devel::Trace>
+
+=item * L<Carp::Always>
+
+=item * L<Carp::Always::Color>
+
+=item * L<Data::Dumper>
+
+=item * L<Data::Dump>
+
+=item * L<Data::Printer>
+
+=item * L<Smart::Comments>
+
+=item * L<Devel::REPL>
+
+=item * L<Module::Info>
+
+=item * L<PadWalker>
+
+=back
+
+
+=head3 3.6. Web Scraper
 
 =over
 
@@ -44,53 +157,8 @@ HTML 处理：
 
 =back
 
-=head3 Regular Expressions
 
-=over
-
-=item * L<Regexp::Common>
-
-=item * L<Regexp::Optimizer>
-
-=item * L<Regexp::Assemble>
-
-=item * L<re>
-
-=item * L<YAPE::Regex::Explain>
-
-=back
-
-=head3 Debug
-
-=over
-
-=item * L<Devel::Peek>
-
-=item * L<Devel::Size>
-
-=item * L<Devel::Trace>
-
-=item * L<Carp::Always>
-
-=item * L<Carp::Always::Color>
-
-=item * L<Data::Dumper>
-
-=item * L<Data::Dump>
-
-=item * L<Data::Printer>
-
-=item * L<Smart::Comments>
-
-=item * L<Devel::REPL>
-
-=item * L<Module::Info>
-
-=item * L<PadWalker>
-
-=back
-
-=head3 Template
+=head3 3.7. Template
 
 =over
 
@@ -108,7 +176,7 @@ HTML 处理：
 
 =back
 
-=head3 Web Frameworks
+=head3 3.8. Web 开发框架
 
 =over
 
@@ -128,7 +196,7 @@ HTML 处理：
 
 =back
 
-=head3 Web Servers
+=head3 3.9. Web 服务器
 
 =over
 
@@ -166,71 +234,7 @@ HTML 处理：
 
 =back
 
-=head3 日期和时间
-
-=over
-
-=item * L<DateTime>
-
-=item * L<Date::Tiny>
-
-=item * L<Date::Parse>
-
-=item * L<Time::ParseDate>
-
-=item * L<Date::Formate>
-
-=item * L<Time::HiRes>
-
-=item * L<Date::Calc>
-
-=back
-
-=head3 databases
-
-=over
-
-=item * L<DBIx::Class>
-
-=item * L<DBI>
-
-=item * L<Class::DBI>
-
-=item * L<Rose::DB::Object>
-
-=item * L<DBIx::Simple>
-
-=back
-
-=head3 面向对象
-
-=over
-
-=item * L<Moose>
-
-=item * L<MooseX>
-
-=item * L<Mouse>
-
-=item * L<Moo>
-
-=item * L<Class::XSAccessor>
-
-=item * L<Class::XSAccessor::Array>
-
-=item * L<Class::Struct>
-
-=item * L<Class::Accessor>
-
-=item * L<Class::Std>
-
-=item * L<Class::MethodMaker>
-
-=item * L<App::Benchmark::Accessors>
-
-=back
-
-=head3 Email
+=head3 3.10. Email
 
 =over
 
@@ -248,7 +252,7 @@ HTML 处理：
 
 =back
 
-=head3 IP
+=head3 3.11. IP 地址处理
 
 =over
 
@@ -272,7 +276,7 @@ HTML 处理：
 
 =back
 
-=head3 Unicode
+=head3 3.12. Unicode
 
 =over
 
@@ -286,7 +290,7 @@ HTML 处理：
 
 =back
 
-=head3 XML 处理
+=head3 3.13. XML 处理
 
 =over
 
@@ -300,7 +304,7 @@ HTML 处理：
 
 =back
 
-=head3 Misc
+=head3 3.14. Misc
 
 =over
 
@@ -342,6 +346,8 @@ HTML 处理：
 
 =back
 
-=head2 Task::Kensho
+=head2 4. Task::Kensho
 
 L<Task::Kensho>
+
+
