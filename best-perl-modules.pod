@@ -6,6 +6,8 @@
 
 Perl 常用模块推荐。
 
+先发上来，B<模块简介>后续会慢慢补。
+
 =head2 2. 模块安装
 
 L<How to Install Perl Modules Using App::cpanminus (cpanm)|https://github.com/WisdomFusion/HOWTOs/blob/master/howto-install-perl-moudles-using-cpanminus.md>
