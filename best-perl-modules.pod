@@ -64,6 +64,8 @@ L<How to Install Perl Modules Using App::cpanminus (cpanm)|https://github.com/Wi
 
 =item * L<DBIx::Simple>
 
+=item * L<Redis>
+
 =back
 
 =head3 3.4. 面向对象
@@ -129,7 +131,7 @@ L<How to Install Perl Modules Using App::cpanminus (cpanm)|https://github.com/Wi
 
 =over
 
-=item * L<WWW::Mechanize>
+=item * L<AnyEvent::HTTP>
 
 =item * L<Scrappy>
 
@@ -139,26 +141,13 @@ L<How to Install Perl Modules Using App::cpanminus (cpanm)|https://github.com/Wi
 
 =item * L<HTTP::Lite>
 
+=item * L<WWW::Mechanize>
+
 =item * L<HTTP::Tiny>
 
 =item * L<WWW::Curl>
 
 =back
-
-HTML 处理：
-
-=over
-
-=item * L<HTML::Tree>
-
-=item * L<HTML::TreeBuilder::XPath>
-
-=item * L<HTML::TreeBuilder::Select>
-
-=item * L<HTML::TreeBuilder::LibXML>
-
-=back
-
 
 =head3 3.7. Template
 
